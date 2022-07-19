@@ -1,0 +1,138 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url(/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.login-box {
+  background-image: url(https://images.unsplash.com/photo-1494249465471-5655b7878482?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20vmax 50px 75px 100px;
+  padding: 20px 20px 20px 20px; */
+  width: 65%;
+  height: 80%;
+}
+
+.social {
+  padding: ;
+  margin-top: 40px;
+  font-size: 12px;
+  color: white;
+  text-align: justify;
+}
+
+.left-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(247, 246, 243);
+  /* border: 2px solid saddlebrown; */
+  padding: 0px 0px 0px 19px;
+  margin: 0px 190px 0px 24px;
+  width: 40%;
+  height: 100%;
+  font: 100 10px;
+}
+
+.left-box > .logo {
+  color: rgb(249, 247, 247);
+  display: flex;
+  justify-content: center;
+  margin-right: 20vmax;
+  margin-bottom: 20vmax;
+  position: relative;
+}
+
+.left-box h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.left-box p {
+  font-size: 12px;
+  font-weight: 100;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.right-box {
+  background-color: rgba(0, 0, 0, 0.324);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-right: 90px; */
+}
+
+.right-box h1 {
+  margin-bottom: 100px;
+  color: white;
+  font: 200, Geneva, sans-serif;
+}
+
+.right-box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.right-box form input {
+  background: none;
+  padding: 2px;
+  margin: 12px 0px;
+  outline: none;
+  border-color: transparent;
+  color: white;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.774);
+  background-clip: border-box;
+}
+
+.right-box button {
+  color: white;
+  padding: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.176);
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  font-size: 19px;
+  background: none;
+  background-clip: border-box;
+}
+
+.right-box button:hover {
+  background-color: rgb(251, 249, 249);
+  color: black;
+  background-clip: border-box;
+}
